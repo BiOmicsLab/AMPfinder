@@ -13,19 +13,12 @@ python ampfinder main -i {INPUT_SEQUENCE} -o {OUTPUT_FILE} -t{contig,protein} -a
 
 
 
--i INPUT_SEQUENCE,    --input_sequence INPUT_SEQUENCE
-
-                        input file must be in FASTA (contig and protein) ! e.g myFile.fasta
-                        
--o OUTPUT_FILE, 	    --output_file OUTPUT_FILE 
-
-                        output folder and base filename
-                        
--t {contig,protein},	--input_type {contig,protein}
-
+           -i INPUT_SEQUENCE,    --input_sequence INPUT_SEQUENCE
+                        input file must be in FASTA (contig and protein) ! e.g myFile.fasta                       
+           -o OUTPUT_FILE, 	    --output_file OUTPUT_FILE 
+                        output folder and base filename      
+           -t {contig,protein},	--input_type {contig,protein}
                         specify data input type (default = contig)
-                        
--a {DIAMOND,BLAST},   --alignment_tool {DIAMOND,BLAST}
-
+           -a {DIAMOND,BLAST},   --alignment_tool {DIAMOND,BLAST}
                         specify alignment tool (default = BLAST)
                         
