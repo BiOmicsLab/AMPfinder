@@ -11,6 +11,8 @@ USAGE:
 
 python ampfinder main -i {INPUT_SEQUENCE} -o {OUTPUT_FILE} -t{contig,protein} -a{DIAMOND,BLAST} 
 
+
+
 -i INPUT_SEQUENCE,    --input_sequence INPUT_SEQUENCE
 
                         input file must be in FASTA (contig and protein) ! e.g myFile.fasta
